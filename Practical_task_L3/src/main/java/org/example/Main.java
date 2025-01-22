@@ -10,7 +10,9 @@ public class Main {
 //        compareNumbers();
 //        doobleNumbers();
 //        printNumberSign();
-        isNegative();
+//        isNegative();
+//        lineOne();
+        yearLeap();
     }
     // Метод 1: Печатает три слова
     public static void printThreeWords() {
@@ -90,6 +92,24 @@ public class Main {
         System.out.println("Введите любое целое число");
         int a = scanner.nextInt();
         System.out.println(a < 0);
+    }
+    // Метод 8: Печатает столько раз введённый текс, сколько мы попросим
+    public static void lineOne() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Напишите любой текст");
+        String input = scanner.nextLine();
+        System.out.println("Напишите целое число от 1 до 20");
+        int a = scanner.nextInt();
+        for (int i = 1; i <= a; i++) {
+            System.out.println(input);
+        }
+    }
+    // Метод 9: Показывает какой год високосный
+    public static void yearLeap() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите год числами");
+        int a = scanner.nextInt();
+        System.out.println(a % 4 == 0 || a % 100 != 0 || a % 400 == 0);
     }
 
 }
