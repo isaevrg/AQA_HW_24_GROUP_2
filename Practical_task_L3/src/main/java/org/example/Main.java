@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        printThreeWords();
-//        checkSumSign();
-//        printColor();
-//        compareNumbers();
-//        doobleNumbers();
-//        printNumberSign();
-//        isNegative();
-//        lineOne();
+        printThreeWords();
+        checkSumSign();
+        printColor();
+        compareNumbers();
+        doobleNumbers();
+        printNumberSign();
+        isNegative();
+        lineOne();
         yearLeap();
     }
     // Метод 1: Печатает три слова
